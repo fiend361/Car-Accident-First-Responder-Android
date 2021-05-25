@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogoActivity">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo1"
+        android:id="@+id/logoImg1"
+        android:layout_width="280dp"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logoImg1"
+        android:src="@drawable/logo2"
+        android:id="@+id/logoImg2"
+        android:layout_width="280dp"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
